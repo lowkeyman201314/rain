@@ -11,9 +11,13 @@ import java.util.List;
  * @Description:
  */
 public class RainManagerService {
-    private RainManageDao rainManageDao=new RainManageDao();
+    private RainManageDao rainManageDao = new RainManageDao();
 
-    public List<RainQuality> getAllInfo(){
+    public List<RainQuality> getAllInfo() {
         return rainManageDao.getAllInfo();
+    }
+
+    public int addNewRainInfo(RainQuality rain) {
+        return rainManageDao.addNewRainInfo(rain);
     }
 }

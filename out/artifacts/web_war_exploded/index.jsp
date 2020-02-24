@@ -46,7 +46,7 @@
         </c:forEach>
         </tbody>
     </table>
-    <div class="add"><a href="void(0)">新增雨量监测信息</a></div>
+    <div class="add"><a href="add.jsp">新增雨量监测信息</a></div>
 </div>
 </body>
 </html>

@@ -90,4 +90,30 @@ public class RainManageDao extends BaseDao {
         }
         return num;
     }
+
+    /**
+     * 根据编号删除雨量信息
+     * @param id
+     * @return
+     */
+    public int deleteById(String id){
+        int num =0;
+        try {
+            //编写删除雨量信息的SQL
+            String sql = "delete from rainquality where id = ?";
+            //连接数据库
+            conn = BaseDao.getConn();
+            //prepareStatement对象
+            pstmt = conn.prepareStatement(sql);
+            //参数赋值
+            pstmt.setObject(1,id);
+            //执行SQL
+            num = pstmt.executeUpdate();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            num = -1;
+        }
+        return num;
+    }
 }

@@ -20,4 +20,8 @@ public class RainManagerService {
     public int addNewRainInfo(RainQuality rain) {
         return rainManageDao.addNewRainInfo(rain);
     }
+
+    public int deleteById(String id) {
+        return rainManageDao.deleteById(id);
+    }
 }

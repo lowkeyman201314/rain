@@ -7,20 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8ea6f95-d739-4871-ac57-38f654f4a77b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/filter/EncodeFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/AddServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/statics/js/jquery-1.8.3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/TestDeleteById.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/web/DeleteServlet.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/dao/BaseDao.class" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/dao/BaseDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/dao/RainManageDao.class" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/dao/RainManageDao.class" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/service/RainManagerService.class" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/service/RainManagerService.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/production/rain/dao/BaseDao.class" afterPath="$PROJECT_DIR$/out/production/rain/dao/BaseDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/rain/dao/RainManageDao.class" afterPath="$PROJECT_DIR$/out/production/rain/dao/RainManageDao.class" />
       <change beforePath="$PROJECT_DIR$/out/production/rain/service/RainManagerService.class" afterPath="$PROJECT_DIR$/out/production/rain/service/RainManagerService.class" />
-      <change beforePath="$PROJECT_DIR$/src/dao/BaseDao.java" afterPath="$PROJECT_DIR$/src/dao/BaseDao.java" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/web/add.jsp" afterPath="$PROJECT_DIR$/web/add.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/dao/RainManageDao.java" afterPath="$PROJECT_DIR$/src/dao/RainManageDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/service/RainManagerService.java" afterPath="$PROJECT_DIR$/src/service/RainManagerService.java" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,9 +32,21 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+            <state relative-caret-position="-8">
+              <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web/DeleteServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <folding>
+                <element signature="method#doGet#0;class#DeleteServlet#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,8 +75,6 @@
         <option value="$PROJECT_DIR$/src/entity/RainQuality.java" />
         <option value="$PROJECT_DIR$/src/test/TestConnection.java" />
         <option value="$PROJECT_DIR$/src/web/IndexServlet.java" />
-        <option value="$PROJECT_DIR$/src/dao/RainManageDao.java" />
-        <option value="$PROJECT_DIR$/src/service/RainManagerService.java" />
         <option value="$PROJECT_DIR$/src/test/TestAdd.java" />
         <option value="$PROJECT_DIR$/web/add.jsp" />
         <option value="$PROJECT_DIR$/src/dao/BaseDao.java" />
@@ -77,7 +83,11 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/filter/EncodeFilter.java" />
         <option value="$PROJECT_DIR$/src/web/PythonServlet.java" />
+        <option value="$PROJECT_DIR$/src/dao/RainManageDao.java" />
+        <option value="$PROJECT_DIR$/src/service/RainManagerService.java" />
+        <option value="$PROJECT_DIR$/src/test/TestDeleteById.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/web/DeleteServlet.java" />
       </list>
     </option>
   </component>
@@ -164,17 +174,6 @@
             <path>
               <item name="rain" type="b2602c69:ProjectViewProjectNode" />
               <item name="rain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rain" type="b2602c69:ProjectViewProjectNode" />
@@ -267,6 +266,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="test.TestConnection" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="rain" />
+      <envs />
+    </configuration>
+    <configuration name="TestDeleteById" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="test.TestDeleteById" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -425,15 +443,17 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.30" />
       <item index="1" class="java.lang.String" itemvalue="Application.TestConnection" />
       <item index="2" class="java.lang.String" itemvalue="Application.TestAdd" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestDeleteById" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestAdd" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestConnection" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.TestDeleteById" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestAdd" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -461,7 +481,7 @@
       <workItem from="1582247737386" duration="39000" />
       <workItem from="1582471154033" duration="341000" />
       <workItem from="1582502525674" duration="52000" />
-      <workItem from="1582511768020" duration="1233000" />
+      <workItem from="1582511768020" duration="5204000" />
     </task>
     <task id="LOCAL-00001" summary="实现首页展示雨量信息">
       <created>1582082349627</created>
@@ -491,11 +511,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582164288888</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完成新增雨量信息">
+      <created>1582513123007</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582513123007</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30193000" />
+    <option name="totallyTimeSpent" value="34164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1307" height="784" extended-state="6" />
@@ -515,8 +542,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24291497" sideWeight="0.45945945" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31578946" sideWeight="0.5405405" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33684212" sideWeight="0.45945945" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33684212" sideWeight="0.5405405" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -569,7 +596,8 @@
     <MESSAGE value="实现首页展示雨量信息&#10;调整首页信息倒序排列&#10;配置web.xml，实现打开首页自动显示所有雨量信息&#10;构建war包" />
     <MESSAGE value="实现首页展示雨量信息&#10;调整首页信息倒序排列&#10;配置web.xml，实现打开首页自动显示所有雨量信息&#10;构建war包&#10;编写新增雨量信息的页面" />
     <MESSAGE value="编写新增雨量信息的dao和service&#10;对以上2个方法进行测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="编写新增雨量信息的dao和service&#10;对以上2个方法进行测试" />
+    <MESSAGE value="完成新增雨量信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成新增雨量信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -580,22 +608,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1247">
-          <caret line="43" column="57" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
@@ -857,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/RainManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/statics/js/jquery-1.8.3.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -889,13 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/RainManageDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="71" column="34" lean-forward="false" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -947,10 +945,51 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/PythonServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/service/RainManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#502#503#0" expanded="false" />
+            <element signature="e#553#554#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestDeleteById.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/RainManageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="74" column="31" lean-forward="true" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+          <folding>
+            <element signature="method#getAllInfo#0;class#RainManageDao#0" expanded="false" />
+            <element signature="docComment;method#addNewRainInfo#0;class#RainManageDao#0" expanded="false" />
+            <marker date="1582513540379" expanded="true" signature="3004:3040" ph="delete from rainquality... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/DeleteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="method#doGet#0;class#DeleteServlet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        <state relative-caret-position="-8">
+          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
           <folding />
         </state>
       </provider>
